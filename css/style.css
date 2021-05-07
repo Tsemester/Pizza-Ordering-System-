@@ -1,0 +1,388 @@
+/*
+Author : Tseme Botlhe 
+Theme : Pizzaeria Ordering For UB Students 
+
+*/
+*{
+
+margin: 0 0 ;
+padding: 0 0 ;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.navbar{
+    background-color:#0f0f0f;
+     
+}
+
+.categories{
+    background-color:#0f0f0f;
+}
+
+
+
+.container{
+   /* border: 1px solid red ;*/
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+
+    
+}
+
+/* CSS For Logo  */
+.logo{
+  
+   /*border: 1px solid black ;*/
+    width: 20%;
+   
+    float: left;
+
+
+}
+/* css for pic */
+
+
+.logo1 {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular_square {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  width: 100%;
+}
+.img-responsive{
+    width: 100%;
+}
+/* align menu buttons */
+
+.text_right{
+text-align: right;
+
+}
+
+.text-white{
+    color: white;
+}
+.text_center{
+
+    text-align:  center;
+}
+
+/*remove numbering */
+
+.menu ul {
+ list-style-type: none ;
+
+
+}
+.menu ul li {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    
+}
+
+ a  {
+    color :#eccc68; 
+    text-decoration: none;
+}
+a:hover{
+
+    color:#ffa502;
+}
+
+.menu {
+
+    line-height: 80px ;
+}
+.clear-fix{
+
+    clear: both;
+    float: none;
+}
+
+.body{
+    color: grey
+}
+
+/* css for restaurant search */
+
+.res-search{
+
+    
+   /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+    background-image:url(../images/menu-pizza.jpg);
+   
+    
+
+}
+
+.res-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+
+
+}
+.btn{
+
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+     color:#eccc68;
+     border-radius: 10px;
+}
+.btn-primary
+{
+
+    background-color: #eccc68;
+    color: white;
+    cursor:pointer;
+    border-radius: 5px;
+   
+}
+.btn-primary:hover
+
+{
+    color: white;
+ background-color:#ffa502;
+}
+/* css for header 2 */
+h2{
+
+    color:white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 2% ;
+}
+h2:hover{
+    color:#ffa502;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+/* css for categories */
+
+.categories{
+
+    padding: 4% 0;
+    
+}
+
+.box-1{
+   
+    width: 22%;
+    float:left ;
+    margin: 1%;
+}
+
+.float-container{
+position: relative;
+
+
+}
+
+.float-text{
+
+    position: absolute;
+    bottom: 50px ;
+    left:40%
+}
+
+.img-curve{
+
+    border-radius: 15px;
+}
+/* css for for pizza menu*/
+
+.pizza_menu_box{
+    border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+}
+.pizza-menu{
+   /*background-color:#0f0f0f;
+   padding: 4% 0 ;
+   */
+    background-image: url(../images/pizza.jpg);
+    padding: 4% 0 ;
+}
+.pizza-menu-img{
+    width: 20%;
+    float: left;
+
+}
+.food-menu-des{
+width: 70%;
+margin-left: 8%;
+float: left;
+color:white;
+}
+
+
+
+  .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+.pizza-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+
+}
+.pizza-detail{
+    font-size: 1rem;
+    color:#EAB543;
+
+}
+/*css for social */
+
+.social ul {
+    list-style-type: none ;
+}
+.social ul li {
+    display: inline;
+    padding: 1%;
+}
+.footer{
+    background-color:#ffa502;
+}
+.social{
+    background-color:#0f0f0f;
+}
+/*css for mobile screen*/
+/*
+@media only screen and (max-width : 768 px )
+{
+
+    .logo{
+        
+    }
+
+
+   .logo1 {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular_square {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  width: 100%;
+}
+.menu ul li {
+    text-align: center;
+
+}
+
+
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+/*
+Author Tseme Botlhe 
+Theme :Pizza Ordering System 
+Version 1.0 
+
+*/
+
+*
+{
+
+margin: 0 ;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif; 
+font: white;
+
+
+
+}
+
+.wrapper {
+    /*Remove the wrapper of the body 
+/*border: 1px solid black;*/ 
+padding: 1%;
+width: 80%;
+margin: 0 auto
+;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clear-fix{
+    float : none;
+    clear: both;
+
+
+}
+/* footer color */ 
+.footer{
+    background-color :  #f0c742;
+    color:black;
+
+}
+/* csss for menu */
+
+.Menu{
+border-bottom : 1px solid grey ; 
+background-color:#f0c742;
+
+
+}
+
+.Menu {
+    text-align: center;
+}
+
+.Menu ul {
+    list-style-type: none;
+    
+}
+
+.Menu ul li a {
+text-decoration: none;
+font-weight: bold;
+    color:  black;
+
+
+}
+
+.Menu ul li a:hover{
+    color:gray;
+}
+.Menu ul li {
+    display: inline ;
+    padding: 1%;
+}
+/* css for main content */
+
+.Main-content{
+/* margin: 1% 0 ;*/
+ background-color : #f1f2f6;
+ padding: 3% 0;
+ background-image:url(../images/brownback.jpg);
+
+}
+/*styling dashboard */
+.col-4{
+    width: 18% ;
+    background-color:#f0c742;
+    border-radius: 15px;
+    color:black;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+
+}
+/*login form*/ 
+.login{
+    
+
+border: 1px solid grey;
+width: 20%;
+margin: 5% auto;
+padding: 2%;
+
+}
+
+
+
+
+/* Admin table */
+.tbl_full{
+    width: 100%;
+
+}
+
+.tbladmin{
+
+    width: 30%;
+
+}
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover {
+   background-color:  #3742fa ;
+}
+
+.btn-secondary{
+    background-color:#0b6e2b;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover {
+   background-color: #034d22 ;
+}
+
+.success{
+    color:#034d22;
+}
+
+.error{
+    color: #f11325 ;
+}
+.btn-danger{
+    background-color:#f11325;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.btn-danger:hover{
+    background-color: #8d0712 ;
+
+}

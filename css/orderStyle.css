@@ -1,0 +1,22 @@
+/*ORDER CSS
+*/
+body{
+    /*background-color: rgb(54, 53, 52);*/
+    background-color:#141414;
+    color:white;
+    }
+    #place{
+        color: #ffa502;
+        text-align: center;
+    }
+    #about{
+        color: #ffa502;
+    }
+    #desSec{
+        color: #ffa502;
+    }
+    #submit{
+        color: #17ff02;
+    }
+    
+    
